@@ -3,7 +3,6 @@ metadata:
   name: goose-udi
 components:
   - name: dev-container
-    type: container
     container:
       image: quay.io/rh-ee-malarhab/goose-dep:latest
       mountSources: true
