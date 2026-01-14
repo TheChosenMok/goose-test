@@ -1,0 +1,11 @@
+schemaVersion: 2.3.0
+metadata:
+  name: goose-udi
+components:
+  - name: dev-container
+    type: container
+    container:
+      image: quay.io/rh-ee-malarhab/goose-dep:latest
+      mountSources: true
+      memoryLimit: 3gi
+      cpuLimit: 2000m
