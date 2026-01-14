@@ -6,5 +6,5 @@ components:
     container:
       image: quay.io/rh-ee-malarhab/goose-dep:latest
       mountSources: true
-      memoryLimit: 3GI
+      memoryLimit: 2GI
       cpuLimit: 2000m
